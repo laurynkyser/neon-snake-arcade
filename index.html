@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Snake Arcade</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; font-family: Arial, sans-serif; color: #fff;
+    background: radial-gradient(circle at top, #49305f, #211a35 52%, #100d1c);
+  }
+  header { text-align: center; padding: 72px 20px 48px; }
+  .eyebrow { color: #9bf6d0; letter-spacing: 4px; text-transform: uppercase; font-size: .8rem; }
+  h1 { margin: 14px 0; font-size: clamp(2.6rem, 8vw, 5rem); color: #ffb3d9; text-shadow: 0 0 22px #ff69b4aa; }
+  header p { max-width: 620px; margin: 0 auto; color: #e0d5ed; line-height: 1.7; }
+  main { width: min(900px, 92%); margin: 0 auto 60px; }
+  .panel { background: #241d38dd; border: 1px solid #765398; border-radius: 20px; padding: 26px; margin: 18px 0; box-shadow: 0 12px 35px #09061255; }
+  h2 { color: #ffb3d9; margin-top: 0; }
+  .play { display: inline-block; margin-top: 22px; padding: 14px 26px; border-radius: 999px; color: #20152c; background: #ffb3d9; text-decoration: none; font-weight: bold; box-shadow: 0 0 18px #ff69b477; }
+  .play:hover { transform: translateY(-2px); filter: brightness(1.08); }
+  ol { padding-left: 22px; line-height: 1.8; color: #e7def1; }
+  .student { color: #9bf6d0; font-weight: bold; }
+  footer { text-align: center; color: #b9a9ca; padding: 24px; font-size: .9rem; }
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">A classic arcade game with a neon twist</div>
+  <h1>NEON SNAKE</h1>
+  <p>Eat, grow, and try to beat your high score! Guide the glowing snake around the board, collect food, and avoid running into the walls or your own tail.</p>
+  <a class="play" href="game.html">▶ Play the Game</a>
+</header>
+<main>
+  <section class="panel">
+    <h2>About the Game</h2>
+    <p>Neon Snake is a modern take on the classic Snake arcade game. Players use the arrow keys or WASD to move, collect food to grow longer, and earn points. The game also includes bonus food, increasing difficulty, and mobile controls.</p>
+    <p><strong>Created by:</strong> <span class="student">Your Name</span></p>
+    <p><em>Before publishing, replace “Your Name” with your name.</em></p>
+  </section>
+  <section class="panel">
+    <h2>My Five Game Modifications</h2>
+    <ol>
+      <li><strong>Neon color scheme:</strong> Added a pink, purple, and dark background theme.</li>
+      <li><strong>Increasing speed:</strong> The snake gets faster as the score increases.</li>
+      <li><strong>Glowing trail:</strong> Added a visual glow behind the moving snake.</li>
+      <li><strong>Bonus food:</strong> Added golden food worth extra points.</li>
+      <li><strong>Extra controls:</strong> Added WASD keys, mobile direction buttons, and a pause feature.</li>
+    </ol>
+  </section>
+</main>
+<footer>Thanks for visiting Neon Snake Arcade!</footer>
+</body>
+</html>
